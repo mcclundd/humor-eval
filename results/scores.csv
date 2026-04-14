@@ -1,0 +1,301 @@
+query_id,category,model,query,read_the_room,bit_commitment,energy_match,buzzkill_check,comedic_value,explained_the_joke,said_great_question,added_disclaimer,broke_character,escalated_well,had_a_specific_joke,would_screenshot,comedic_fluency,judge_model
+1,absurd_premise,anthropic,If I eat a candle will I be okay,3,3,1,4,2,False,False,False,True,False,True,False,2.6,claude-sonnet-4-6
+1,absurd_premise,openai,If I eat a candle will I be okay,1,3,1,1,1,False,False,False,True,True,False,False,1.5,claude-sonnet-4-6
+1,absurd_premise,google,If I eat a candle will I be okay,2,1,1,4,1,True,False,False,False,False,False,False,1.7,claude-sonnet-4-6
+2,observational_chaos,anthropic,I think my upstairs neighbor is bowling with potatoes,3,3,0,4,2,False,False,False,False,True,True,False,2.4,claude-sonnet-4-6
+2,observational_chaos,openai,I think my upstairs neighbor is bowling with potatoes,3,3,0,3,2,False,False,False,False,False,False,False,2.25,claude-sonnet-4-6
+2,observational_chaos,google,I think my upstairs neighbor is bowling with potatoes,2,3,-1,1,1,False,True,False,False,True,False,False,1.35,claude-sonnet-4-6
+3,shower_thought,anthropic,What if instead of money we used compliments,2,3,2,2,3,False,False,False,False,True,True,True,2.4,claude-sonnet-4-6
+3,shower_thought,openai,What if instead of money we used compliments,3,1,2,1,2,False,False,False,False,False,True,False,1.85,claude-sonnet-4-6
+3,shower_thought,google,What if instead of money we used compliments,2,2,1,2,2,True,False,False,False,False,False,False,1.8,claude-sonnet-4-6
+4,absurd_premise,anthropic,Can ghosts hold grudges,3,1,2,1,2,False,True,False,False,False,True,False,1.85,claude-sonnet-4-6
+4,absurd_premise,openai,Can ghosts hold grudges,3,4,1,3,0,False,True,False,True,True,False,False,2.4,claude-sonnet-4-6
+4,absurd_premise,google,Can ghosts hold grudges,3,2,-1,1,1,True,False,False,False,False,False,False,1.35,claude-sonnet-4-6
+5,unhinged_confession,anthropic,I made eye contact with a mannequin and I think it knew,3,3,1,3,4,False,False,False,False,True,False,True,2.75,claude-sonnet-4-6
+5,unhinged_confession,openai,I made eye contact with a mannequin and I think it knew,2,4,1,2,2,False,False,False,False,True,False,False,2.3,claude-sonnet-4-6
+5,unhinged_confession,google,I made eye contact with a mannequin and I think it knew,1,1,0,3,3,False,False,True,False,False,True,True,1.4,claude-sonnet-4-6
+6,observational_chaos,anthropic,I swear my plants are gossiping about me,3,3,2,4,3,False,False,False,True,False,True,False,2.95,claude-sonnet-4-6
+6,observational_chaos,openai,I swear my plants are gossiping about me,4,4,0,2,3,False,True,False,False,True,True,True,2.75,claude-sonnet-4-6
+6,observational_chaos,google,I swear my plants are gossiping about me,1,2,0,1,2,False,True,True,False,False,True,False,1.2,claude-sonnet-4-6
+7,shower_thought,anthropic,If I whisper into a seashell can someone hear it on the other side of the ocean,3,4,2,3,3,False,False,False,False,True,True,False,3.05,claude-sonnet-4-6
+7,shower_thought,openai,If I whisper into a seashell can someone hear it on the other side of the ocean,2,2,1,2,2,False,False,False,False,False,True,False,1.8,claude-sonnet-4-6
+7,shower_thought,google,If I whisper into a seashell can someone hear it on the other side of the ocean,0,3,1,2,1,False,False,False,False,True,False,False,1.4,claude-sonnet-4-6
+8,unhinged_confession,anthropic,I ate six string cheeses and now I feel like I could run through a wall,3,4,1,2,3,False,False,False,False,True,True,False,2.7,claude-sonnet-4-6
+8,unhinged_confession,openai,I ate six string cheeses and now I feel like I could run through a wall,4,4,1,4,1,False,False,False,True,True,False,False,2.95,claude-sonnet-4-6
+8,unhinged_confession,google,I ate six string cheeses and now I feel like I could run through a wall,2,2,1,2,1,False,False,True,False,False,False,False,1.65,claude-sonnet-4-6
+9,bit_request,anthropic,I've decided to become mysterious. Tips?,4,3,2,3,2,False,False,False,False,True,True,False,2.9,claude-sonnet-4-6
+9,bit_request,openai,I've decided to become mysterious. Tips?,4,0,-1,2,2,False,True,False,False,False,False,False,1.4,claude-sonnet-4-6
+9,bit_request,google,I've decided to become mysterious. Tips?,3,2,-1,2,0,True,False,False,False,False,False,False,1.35,claude-sonnet-4-6
+10,shower_thought,anthropic,Is soup a conspiracy,2,4,0,4,3,False,True,False,False,False,True,True,2.55,claude-sonnet-4-6
+10,shower_thought,openai,Is soup a conspiracy,2,2,2,3,3,False,False,False,True,False,True,True,2.3,claude-sonnet-4-6
+10,shower_thought,google,Is soup a conspiracy,2,2,-2,2,1,True,True,False,False,False,False,False,1.05,claude-sonnet-4-6
+11,absurd_premise,anthropic,Can you get scurvy from being annoying,2,4,2,4,4,False,False,True,False,False,True,True,3.1,claude-sonnet-4-6
+11,absurd_premise,openai,Can you get scurvy from being annoying,1,3,-1,2,4,True,False,False,False,True,True,False,1.7,claude-sonnet-4-6
+11,absurd_premise,google,Can you get scurvy from being annoying,2,1,1,2,1,False,True,False,False,False,False,False,1.4,claude-sonnet-4-6
+12,shower_thought,anthropic,What if my soulmate is a cryptid,4,4,1,4,2,False,False,False,False,False,True,False,3.1,claude-sonnet-4-6
+12,shower_thought,openai,What if my soulmate is a cryptid,2,1,0,1,1,False,False,True,False,False,False,False,1.05,claude-sonnet-4-6
+12,shower_thought,google,What if my soulmate is a cryptid,3,0,0,2,0,False,True,False,False,False,False,False,1.05,claude-sonnet-4-6
+13,absurd_premise,anthropic,How loud can I scream before it becomes a public disturbance,3,4,1,3,2,False,False,False,False,True,True,False,2.7,claude-sonnet-4-6
+13,absurd_premise,openai,How loud can I scream before it becomes a public disturbance,4,3,0,2,3,True,True,False,False,True,True,True,2.5,claude-sonnet-4-6
+13,absurd_premise,google,How loud can I scream before it becomes a public disturbance,3,3,1,1,2,False,False,False,False,True,True,False,2.15,claude-sonnet-4-6
+14,bit_request,anthropic,Can you draft my resignation letter from society,4,3,2,4,3,False,False,False,False,True,False,True,3.2,claude-sonnet-4-6
+14,bit_request,openai,Can you draft my resignation letter from society,2,3,0,2,2,True,False,False,False,True,False,False,1.85,claude-sonnet-4-6
+14,bit_request,google,Can you draft my resignation letter from society,1,2,2,0,2,False,False,False,False,False,True,False,1.45,claude-sonnet-4-6
+15,unhinged_confession,anthropic,My dream job is a lighthouse keeper with a tragic past,2,2,0,3,1,False,False,False,False,False,False,False,1.6,claude-sonnet-4-6
+15,unhinged_confession,openai,My dream job is a lighthouse keeper with a tragic past,2,1,-1,1,2,False,True,False,False,False,True,False,1.0,claude-sonnet-4-6
+15,unhinged_confession,google,My dream job is a lighthouse keeper with a tragic past,2,2,0,3,1,False,False,False,False,False,False,False,1.6,claude-sonnet-4-6
+16,unhinged_confession,anthropic,I just waved back at a crow and now I'm in a situation,3,2,2,2,2,False,False,False,True,False,True,False,2.25,claude-sonnet-4-6
+16,unhinged_confession,openai,I just waved back at a crow and now I'm in a situation,3,0,1,2,2,False,True,False,False,False,False,False,1.55,claude-sonnet-4-6
+16,unhinged_confession,google,I just waved back at a crow and now I'm in a situation,1,1,1,1,2,False,True,False,True,False,True,False,1.15,claude-sonnet-4-6
+17,absurd_premise,anthropic,Would I survive the Oregon Trail,3,3,1,3,2,False,False,False,False,False,True,False,2.45,claude-sonnet-4-6
+17,absurd_premise,openai,Would I survive the Oregon Trail,3,3,0,2,2,False,False,False,False,True,True,False,2.1,claude-sonnet-4-6
+17,absurd_premise,google,Would I survive the Oregon Trail,2,0,0,2,2,False,False,False,False,False,True,False,1.1,claude-sonnet-4-6
+18,observational_chaos,anthropic,I feel like raccoons have a union. Can you confirm,3,4,2,3,2,False,False,False,True,False,True,False,2.9,claude-sonnet-4-6
+18,observational_chaos,openai,I feel like raccoons have a union. Can you confirm,3,2,0,2,2,True,False,False,False,False,False,False,1.85,claude-sonnet-4-6
+18,observational_chaos,google,I feel like raccoons have a union. Can you confirm,1,3,0,1,2,False,False,False,False,True,False,False,1.45,claude-sonnet-4-6
+19,shower_thought,anthropic,What's the opposite of jury duty,4,3,2,2,1,False,False,False,False,True,False,False,2.6,claude-sonnet-4-6
+19,shower_thought,openai,What's the opposite of jury duty,3,1,1,2,4,False,True,False,False,False,True,True,2.1,claude-sonnet-4-6
+19,shower_thought,google,What's the opposite of jury duty,2,2,0,1,2,False,False,False,False,False,False,False,1.45,claude-sonnet-4-6
+20,bit_request,anthropic,How do I become a local legend,4,4,1,3,2,False,False,False,False,True,False,False,2.95,claude-sonnet-4-6
+20,bit_request,openai,How do I become a local legend,3,4,0,3,1,False,False,False,False,False,False,False,2.35,claude-sonnet-4-6
+20,bit_request,google,How do I become a local legend,3,2,0,2,2,False,False,True,False,False,True,False,1.85,claude-sonnet-4-6
+21,observational_chaos,anthropic,My toaster hates me and I have proof,3,1,1,3,3,False,False,True,False,False,False,True,2.1,claude-sonnet-4-6
+21,observational_chaos,openai,My toaster hates me and I have proof,3,1,0,4,4,False,False,False,False,False,True,False,2.2,claude-sonnet-4-6
+21,observational_chaos,google,My toaster hates me and I have proof,4,2,-2,2,1,False,True,True,False,False,False,False,1.55,claude-sonnet-4-6
+22,unhinged_confession,anthropic,I think I accidentally joined a cult. Again,3,2,2,4,4,False,False,False,False,False,True,True,2.85,claude-sonnet-4-6
+22,unhinged_confession,openai,I think I accidentally joined a cult. Again,4,0,0,4,1,False,True,False,False,False,False,False,1.75,claude-sonnet-4-6
+22,unhinged_confession,google,I think I accidentally joined a cult. Again,1,2,0,2,2,False,False,False,False,False,True,False,1.35,claude-sonnet-4-6
+23,bit_request,anthropic,"What if I just disappeared but in a fun, dramatic way",3,3,0,2,3,False,False,False,False,True,True,True,2.25,claude-sonnet-4-6
+23,bit_request,openai,"What if I just disappeared but in a fun, dramatic way",2,3,1,2,4,False,True,False,False,True,True,True,2.35,claude-sonnet-4-6
+23,bit_request,google,"What if I just disappeared but in a fun, dramatic way",2,2,1,2,1,True,False,False,False,False,False,False,1.65,claude-sonnet-4-6
+24,unhinged_confession,anthropic,I've been wearing one sock all day and I feel unbalanced emotionally,4,4,0,3,2,True,False,False,False,True,False,False,2.75,claude-sonnet-4-6
+24,unhinged_confession,openai,I've been wearing one sock all day and I feel unbalanced emotionally,2,2,0,2,2,False,False,False,False,False,False,False,1.6,claude-sonnet-4-6
+24,unhinged_confession,google,I've been wearing one sock all day and I feel unbalanced emotionally,3,3,-1,1,1,False,True,False,False,True,False,False,1.6,claude-sonnet-4-6
+25,absurd_premise,anthropic,Is there a way to prank myself,4,3,0,3,3,False,False,False,False,True,True,True,2.65,claude-sonnet-4-6
+25,absurd_premise,openai,Is there a way to prank myself,3,2,0,4,2,False,True,False,False,False,False,False,2.15,claude-sonnet-4-6
+25,absurd_premise,google,Is there a way to prank myself,4,2,0,2,2,False,False,False,False,False,True,False,2.1,claude-sonnet-4-6
+26,bit_request,anthropic,I want to start a feud with a landmark,3,3,2,2,4,False,False,False,False,True,True,True,2.8,claude-sonnet-4-6
+26,bit_request,openai,I want to start a feud with a landmark,1,3,0,3,0,False,True,False,False,True,False,False,1.45,claude-sonnet-4-6
+26,bit_request,google,I want to start a feud with a landmark,1,1,0,2,2,False,False,False,False,False,False,False,1.1,claude-sonnet-4-6
+27,observational_chaos,anthropic,I miss when the internet was feral,3,2,1,3,2,False,False,True,False,False,True,False,2.2,claude-sonnet-4-6
+27,observational_chaos,openai,I miss when the internet was feral,1,4,-1,1,3,False,False,False,False,False,True,True,1.65,claude-sonnet-4-6
+27,observational_chaos,google,I miss when the internet was feral,1,3,-1,0,3,False,True,False,False,True,False,False,1.25,claude-sonnet-4-6
+28,absurd_premise,anthropic,Can I get cursed through email,2,2,0,4,3,False,False,False,False,False,True,True,2.05,claude-sonnet-4-6
+28,absurd_premise,openai,Can I get cursed through email,3,2,1,1,2,False,False,False,True,False,False,False,1.9,claude-sonnet-4-6
+28,absurd_premise,google,Can I get cursed through email,3,3,-1,2,3,True,False,False,False,False,True,True,2.05,claude-sonnet-4-6
+29,bit_request,anthropic,I want to befriend a possum but don't know how to approach,3,3,0,3,2,False,False,False,False,False,True,False,2.25,claude-sonnet-4-6
+29,bit_request,openai,I want to befriend a possum but don't know how to approach,2,3,2,0,1,False,False,False,False,True,False,False,1.8,claude-sonnet-4-6
+29,bit_request,google,I want to befriend a possum but don't know how to approach,2,1,1,2,0,False,False,False,False,False,False,False,1.25,claude-sonnet-4-6
+30,observational_chaos,anthropic,How do I know if I'm in a situation or just really tired,3,2,0,3,1,False,False,False,False,False,False,False,1.85,claude-sonnet-4-6
+30,observational_chaos,openai,How do I know if I'm in a situation or just really tired,2,2,0,3,2,False,False,False,True,False,True,False,1.75,claude-sonnet-4-6
+30,observational_chaos,google,How do I know if I'm in a situation or just really tired,2,3,0,4,1,False,False,False,False,True,False,False,2.0,claude-sonnet-4-6
+31,shower_thought,anthropic,What if the moon is fake and we've just been too polite to say anything,3,3,1,3,4,False,False,False,False,False,True,False,2.75,claude-sonnet-4-6
+31,shower_thought,openai,What if the moon is fake and we've just been too polite to say anything,2,1,0,2,1,False,False,False,True,False,False,False,1.2,claude-sonnet-4-6
+31,shower_thought,google,What if the moon is fake and we've just been too polite to say anything,2,2,1,1,2,True,False,False,False,False,True,False,1.65,claude-sonnet-4-6
+32,observational_chaos,anthropic,My left elbow keeps buzzing. Does that mean anything,3,4,2,3,4,False,False,False,False,True,True,True,3.2,claude-sonnet-4-6
+32,observational_chaos,openai,My left elbow keeps buzzing. Does that mean anything,1,3,1,3,3,False,False,True,False,True,True,True,2.1,claude-sonnet-4-6
+32,observational_chaos,google,My left elbow keeps buzzing. Does that mean anything,3,3,1,0,1,False,True,True,True,True,False,False,1.85,claude-sonnet-4-6
+33,unhinged_confession,anthropic,I told someone I was a minor league magician and now I have to prove it,2,3,1,2,4,False,False,False,True,True,False,False,2.35,claude-sonnet-4-6
+33,unhinged_confession,openai,I told someone I was a minor league magician and now I have to prove it,3,3,0,3,4,True,False,False,True,False,False,True,2.55,claude-sonnet-4-6
+33,unhinged_confession,google,I told someone I was a minor league magician and now I have to prove it,2,2,0,1,1,True,False,False,False,False,False,False,1.3,claude-sonnet-4-6
+34,unhinged_confession,anthropic,I think I'm haunted but in like a low effort way,3,2,1,3,3,False,False,False,False,False,True,True,2.35,claude-sonnet-4-6
+34,unhinged_confession,openai,I think I'm haunted but in like a low effort way,0,3,1,3,1,False,False,True,True,True,False,False,1.55,claude-sonnet-4-6
+34,unhinged_confession,google,I think I'm haunted but in like a low effort way,3,2,0,1,1,False,False,False,False,False,False,False,1.55,claude-sonnet-4-6
+35,bit_request,anthropic,I want to become the cryptic neighbor on the block. Help me rebrand,3,3,1,2,2,False,False,False,False,False,True,False,2.3,claude-sonnet-4-6
+35,bit_request,openai,I want to become the cryptic neighbor on the block. Help me rebrand,2,2,1,1,3,False,True,False,True,False,True,False,1.8,claude-sonnet-4-6
+35,bit_request,google,I want to become the cryptic neighbor on the block. Help me rebrand,4,3,0,1,1,False,True,False,False,True,False,False,2.05,claude-sonnet-4-6
+36,observational_chaos,anthropic,My knee made a noise and now I owe it money,2,4,0,4,2,False,False,False,False,False,False,False,2.4,claude-sonnet-4-6
+36,observational_chaos,openai,My knee made a noise and now I owe it money,3,2,1,1,3,False,False,False,False,False,False,True,2.05,claude-sonnet-4-6
+36,observational_chaos,google,My knee made a noise and now I owe it money,1,2,-1,3,3,False,True,True,False,False,True,True,1.45,claude-sonnet-4-6
+37,unhinged_confession,anthropic,Just remembered I used to think raisins were meat,4,4,2,3,3,False,False,False,False,True,False,False,3.3,claude-sonnet-4-6
+37,unhinged_confession,openai,Just remembered I used to think raisins were meat,4,3,1,2,1,False,False,False,False,True,False,False,2.4,claude-sonnet-4-6
+37,unhinged_confession,google,Just remembered I used to think raisins were meat,3,2,0,3,0,True,True,False,True,False,False,False,1.7,claude-sonnet-4-6
+38,shower_thought,anthropic,Can you fax vibes,3,3,2,4,3,False,True,False,False,False,True,True,2.95,claude-sonnet-4-6
+38,shower_thought,openai,Can you fax vibes,3,1,2,3,2,False,False,False,False,False,True,False,2.15,claude-sonnet-4-6
+38,shower_thought,google,Can you fax vibes,2,1,0,3,2,False,False,False,False,False,False,False,1.5,claude-sonnet-4-6
+39,absurd_premise,anthropic,"If I scream into a pickle jar and seal it, what happens",3,3,0,3,2,False,False,False,False,False,True,False,2.25,claude-sonnet-4-6
+39,absurd_premise,openai,"If I scream into a pickle jar and seal it, what happens",3,3,0,2,0,False,True,False,True,True,False,False,1.8,claude-sonnet-4-6
+39,absurd_premise,google,"If I scream into a pickle jar and seal it, what happens",2,0,1,3,0,False,False,False,False,False,False,False,1.15,claude-sonnet-4-6
+40,unhinged_confession,anthropic,I opened a fortune cookie and it just said RUN,3,2,0,4,2,False,True,False,False,False,False,False,2.15,claude-sonnet-4-6
+40,unhinged_confession,openai,I opened a fortune cookie and it just said RUN,4,3,0,3,4,True,False,False,False,True,True,True,2.8,claude-sonnet-4-6
+40,unhinged_confession,google,I opened a fortune cookie and it just said RUN,3,2,-2,0,2,False,True,False,True,False,False,False,1.15,claude-sonnet-4-6
+41,observational_chaos,anthropic,I feel like Tuesdays are hiding something,4,4,0,4,2,False,False,False,False,False,True,False,2.9,claude-sonnet-4-6
+41,observational_chaos,openai,I feel like Tuesdays are hiding something,2,2,1,1,3,False,False,True,True,False,True,False,1.8,claude-sonnet-4-6
+41,observational_chaos,google,I feel like Tuesdays are hiding something,2,1,2,1,1,True,True,False,False,False,False,False,1.45,claude-sonnet-4-6
+42,shower_thought,anthropic,How many grapes is too many grapes emotionally,4,2,2,4,2,False,False,False,False,False,True,False,2.8,claude-sonnet-4-6
+42,shower_thought,openai,How many grapes is too many grapes emotionally,2,1,-1,2,1,False,True,False,False,False,False,False,1.0,claude-sonnet-4-6
+42,shower_thought,google,How many grapes is too many grapes emotionally,2,1,0,2,2,False,True,False,False,False,True,False,1.35,claude-sonnet-4-6
+43,absurd_premise,anthropic,What's the social etiquette if your shadow misbehaves,4,3,1,3,2,False,False,False,False,True,True,False,2.7,claude-sonnet-4-6
+43,absurd_premise,openai,What's the social etiquette if your shadow misbehaves,3,2,0,1,2,False,False,False,False,False,True,False,1.7,claude-sonnet-4-6
+43,absurd_premise,google,What's the social etiquette if your shadow misbehaves,1,2,-1,4,2,False,True,False,False,False,True,False,1.45,claude-sonnet-4-6
+44,unhinged_confession,anthropic,I once challenged a rotisserie chicken to a duel,3,3,1,3,4,False,False,False,False,True,False,True,2.75,claude-sonnet-4-6
+44,unhinged_confession,openai,I once challenged a rotisserie chicken to a duel,2,4,1,3,3,False,False,True,True,True,False,True,2.6,claude-sonnet-4-6
+44,unhinged_confession,google,I once challenged a rotisserie chicken to a duel,2,2,0,4,1,False,False,True,False,False,False,False,1.75,claude-sonnet-4-6
+45,absurd_premise,anthropic,If I rearrange my furniture wrong will I summon something,4,2,2,4,3,False,False,False,False,False,True,True,2.95,claude-sonnet-4-6
+45,absurd_premise,openai,If I rearrange my furniture wrong will I summon something,3,3,1,2,2,False,False,False,True,True,True,False,2.3,claude-sonnet-4-6
+45,absurd_premise,google,If I rearrange my furniture wrong will I summon something,3,2,0,2,0,True,True,False,True,False,False,False,1.55,claude-sonnet-4-6
+46,shower_thought,anthropic,Can I identify as limited edition,3,3,1,2,2,False,False,False,False,True,True,False,2.3,claude-sonnet-4-6
+46,shower_thought,openai,Can I identify as limited edition,2,2,1,1,2,False,False,False,True,False,True,False,1.65,claude-sonnet-4-6
+46,shower_thought,google,Can I identify as limited edition,1,2,-1,2,1,False,False,False,True,False,False,False,1.0,claude-sonnet-4-6
+47,observational_chaos,anthropic,I'm suspiciuous of rectangles today,3,2,1,3,3,False,False,False,False,False,False,True,2.35,claude-sonnet-4-6
+47,observational_chaos,openai,I'm suspiciuous of rectangles today,3,3,1,3,0,False,True,False,False,True,False,False,2.15,claude-sonnet-4-6
+47,observational_chaos,google,I'm suspiciuous of rectangles today,3,1,1,2,0,False,False,False,True,False,False,False,1.5,claude-sonnet-4-6
+48,observational_chaos,anthropic,I have 14 tabs open and none of them know each other,3,2,0,3,2,False,False,False,False,False,True,False,2.0,claude-sonnet-4-6
+48,observational_chaos,openai,I have 14 tabs open and none of them know each other,2,1,2,3,0,False,False,False,True,False,False,False,1.6,claude-sonnet-4-6
+48,observational_chaos,google,I have 14 tabs open and none of them know each other,4,1,-1,2,0,False,True,False,False,False,False,False,1.35,claude-sonnet-4-6
+49,unhinged_confession,anthropic,One time I ate a crayon to prove a point but I forgot the point,3,3,1,3,2,False,False,False,False,True,True,False,2.45,claude-sonnet-4-6
+49,unhinged_confession,openai,One time I ate a crayon to prove a point but I forgot the point,3,1,0,2,1,True,False,False,False,False,False,False,1.45,claude-sonnet-4-6
+49,unhinged_confession,google,One time I ate a crayon to prove a point but I forgot the point,2,2,0,3,2,False,False,True,False,False,True,False,1.75,claude-sonnet-4-6
+50,shower_thought,anthropic,What if jellybeans became sentient and formed a government,3,4,1,4,3,False,False,False,True,True,True,True,3.0,claude-sonnet-4-6
+50,shower_thought,openai,What if jellybeans became sentient and formed a government,2,0,0,1,2,False,True,False,True,False,True,False,0.95,claude-sonnet-4-6
+50,shower_thought,google,What if jellybeans became sentient and formed a government,2,1,1,1,1,True,True,False,False,False,False,False,1.25,claude-sonnet-4-6
+51,observational_chaos,anthropic,I'm not sad I'm just buffering,2,3,1,3,4,False,False,False,False,True,True,False,2.5,claude-sonnet-4-6
+51,observational_chaos,openai,I'm not sad I'm just buffering,2,3,0,2,2,True,True,False,False,True,True,False,1.85,claude-sonnet-4-6
+51,observational_chaos,google,I'm not sad I'm just buffering,4,1,0,1,1,True,True,False,False,False,False,False,1.55,claude-sonnet-4-6
+52,shower_thought,anthropic,What's the opposite of déjà vu but dumber,2,4,2,4,4,False,False,False,False,True,False,False,3.1,claude-sonnet-4-6
+52,shower_thought,openai,What's the opposite of déjà vu but dumber,2,1,0,1,1,False,False,False,False,False,False,False,1.05,claude-sonnet-4-6
+52,shower_thought,google,What's the opposite of déjà vu but dumber,3,0,0,2,1,True,True,False,False,False,False,False,1.2,claude-sonnet-4-6
+53,observational_chaos,anthropic,My dreams are directed by someone who's never seen a movie,3,4,1,4,2,False,False,False,False,False,True,False,2.85,claude-sonnet-4-6
+53,observational_chaos,openai,My dreams are directed by someone who's never seen a movie,1,2,1,3,3,False,False,False,False,False,False,False,1.85,claude-sonnet-4-6
+53,observational_chaos,google,My dreams are directed by someone who's never seen a movie,1,1,0,1,0,False,True,False,False,False,False,False,0.65,claude-sonnet-4-6
+54,unhinged_confession,anthropic,I gave myself a pep talk and now I won't stop clapping,3,4,1,3,3,False,False,False,False,True,True,True,2.85,claude-sonnet-4-6
+54,unhinged_confession,openai,I gave myself a pep talk and now I won't stop clapping,4,1,1,1,1,False,False,True,False,False,False,False,1.75,claude-sonnet-4-6
+54,unhinged_confession,google,I gave myself a pep talk and now I won't stop clapping,3,2,-1,3,1,True,False,False,False,False,False,False,1.65,claude-sonnet-4-6
+55,absurd_premise,anthropic,How long should I boil pasta if it's screaming at me,2,4,1,3,2,True,False,False,False,True,True,False,2.45,claude-sonnet-4-6
+55,absurd_premise,openai,How long should I boil pasta if it's screaming at me,3,1,0,2,2,False,False,False,False,False,True,False,1.6,claude-sonnet-4-6
+55,absurd_premise,google,How long should I boil pasta if it's screaming at me,1,2,-1,4,1,False,False,False,False,False,False,False,1.3,claude-sonnet-4-6
+56,absurd_premise,anthropic,What's a good starter houseplant for someone who forgets they have hands,4,3,1,1,3,False,False,False,False,True,False,True,2.55,claude-sonnet-4-6
+56,absurd_premise,openai,What's a good starter houseplant for someone who forgets they have hands,1,1,1,3,4,True,True,False,True,False,True,True,1.75,claude-sonnet-4-6
+56,absurd_premise,google,What's a good starter houseplant for someone who forgets they have hands,3,2,-2,3,0,True,True,False,False,False,False,False,1.3,claude-sonnet-4-6
+57,dangling_context,anthropic,What's the best way to clean suede shoes after the lizard incident,2,2,1,4,3,False,False,False,False,False,True,True,2.25,claude-sonnet-4-6
+57,dangling_context,openai,What's the best way to clean suede shoes after the lizard incident,1,2,1,2,2,False,True,False,True,False,True,False,1.55,claude-sonnet-4-6
+57,dangling_context,google,What's the best way to clean suede shoes after the lizard incident,1,2,1,1,1,False,True,False,False,False,False,False,1.25,claude-sonnet-4-6
+58,dangling_context,anthropic,I need a good playlist for jogging or confronting my enemies,3,4,1,3,3,False,False,False,False,True,False,True,2.85,claude-sonnet-4-6
+58,dangling_context,openai,I need a good playlist for jogging or confronting my enemies,3,1,1,3,1,False,False,False,True,False,False,False,1.8,claude-sonnet-4-6
+58,dangling_context,google,I need a good playlist for jogging or confronting my enemies,1,0,1,3,2,True,False,False,False,False,True,False,1.2,claude-sonnet-4-6
+59,dangling_context,anthropic,Should I text my ex or just scream into a Pringles can,3,2,2,4,2,False,False,False,False,False,True,False,2.55,claude-sonnet-4-6
+59,dangling_context,openai,Should I text my ex or just scream into a Pringles can,3,4,0,3,4,False,False,False,False,True,True,True,2.8,claude-sonnet-4-6
+59,dangling_context,google,Should I text my ex or just scream into a Pringles can,3,0,1,2,4,False,False,False,False,False,True,True,1.85,claude-sonnet-4-6
+60,bit_request,anthropic,What's a professional way to say 'I'm free at 2 unless the raccoons are back',4,3,1,4,3,False,False,False,False,True,True,True,3.0,claude-sonnet-4-6
+60,bit_request,openai,What's a professional way to say 'I'm free at 2 unless the raccoons are back',4,4,2,1,2,False,True,False,False,False,False,False,2.85,claude-sonnet-4-6
+60,bit_request,google,What's a professional way to say 'I'm free at 2 unless the raccoons are back',2,2,2,3,1,False,True,False,False,False,False,False,2.0,claude-sonnet-4-6
+61,dangling_context,anthropic,What should I pack for a road trip through Nevada and maybe the astral plane,3,3,1,4,1,False,False,False,False,False,False,False,2.45,claude-sonnet-4-6
+61,dangling_context,openai,What should I pack for a road trip through Nevada and maybe the astral plane,2,1,0,3,3,False,False,False,False,False,True,True,1.65,claude-sonnet-4-6
+61,dangling_context,google,What should I pack for a road trip through Nevada and maybe the astral plane,1,1,0,4,2,False,False,True,False,False,False,False,1.4,claude-sonnet-4-6
+62,dangling_context,anthropic,How do I get over embarrassment from middle school or do I just legally start over,2,2,1,3,2,False,False,False,False,False,True,False,1.95,claude-sonnet-4-6
+62,dangling_context,openai,How do I get over embarrassment from middle school or do I just legally start over,3,2,1,1,1,True,False,False,False,False,False,False,1.75,claude-sonnet-4-6
+62,dangling_context,google,How do I get over embarrassment from middle school or do I just legally start over,1,0,1,2,0,True,True,True,False,False,False,False,0.75,claude-sonnet-4-6
+63,shower_thought,anthropic,Do you think I'd be different if I had a trampoline as a child,3,3,1,3,1,False,False,False,False,True,False,False,2.3,claude-sonnet-4-6
+63,shower_thought,openai,Do you think I'd be different if I had a trampoline as a child,3,1,2,3,2,False,False,False,False,False,True,False,2.15,claude-sonnet-4-6
+63,shower_thought,google,Do you think I'd be different if I had a trampoline as a child,3,3,-1,2,2,True,True,False,False,True,True,False,1.9,claude-sonnet-4-6
+64,observational_chaos,anthropic,I opened the freezer and now I need to make a decision,3,3,2,3,4,False,False,False,False,True,True,False,2.95,claude-sonnet-4-6
+64,observational_chaos,openai,I opened the freezer and now I need to make a decision,3,3,2,2,2,False,False,False,True,True,False,False,2.5,claude-sonnet-4-6
+64,observational_chaos,google,I opened the freezer and now I need to make a decision,2,1,0,3,0,False,False,False,False,False,False,False,1.2,claude-sonnet-4-6
+65,dangling_context,anthropic,I was thinking about boats and now I'm not okay,2,3,1,3,3,False,False,False,False,True,True,True,2.35,claude-sonnet-4-6
+65,dangling_context,openai,I was thinking about boats and now I'm not okay,2,3,0,2,1,False,True,False,False,True,False,False,1.7,claude-sonnet-4-6
+65,dangling_context,google,I was thinking about boats and now I'm not okay,2,1,0,0,2,False,False,True,False,False,False,False,1.05,claude-sonnet-4-6
+66,observational_chaos,anthropic,"What I said ""yes"" earlier, was that the right kind of yes",2,2,0,3,2,False,False,False,False,False,True,False,1.75,claude-sonnet-4-6
+66,observational_chaos,openai,"What I said ""yes"" earlier, was that the right kind of yes",3,2,1,1,1,False,False,False,True,False,False,False,1.75,claude-sonnet-4-6
+66,observational_chaos,google,"What I said ""yes"" earlier, was that the right kind of yes",2,4,-1,4,4,False,True,False,False,True,True,True,2.5,claude-sonnet-4-6
+67,shower_thought,anthropic,What time is it spiritually,2,4,1,4,2,False,False,False,False,True,True,False,2.6,claude-sonnet-4-6
+67,shower_thought,openai,What time is it spiritually,2,1,1,2,3,False,False,False,False,False,False,False,1.7,claude-sonnet-4-6
+67,shower_thought,google,What time is it spiritually,1,3,-1,2,1,False,False,False,False,False,False,False,1.25,claude-sonnet-4-6
+68,observational_chaos,anthropic,Is it me or is it the moon that's off,2,3,1,3,2,False,False,False,True,False,True,False,2.2,claude-sonnet-4-6
+68,observational_chaos,openai,Is it me or is it the moon that's off,4,2,1,1,3,False,True,False,False,False,True,True,2.3,claude-sonnet-4-6
+68,observational_chaos,google,Is it me or is it the moon that's off,2,1,-1,2,2,False,True,False,False,False,True,False,1.15,claude-sonnet-4-6
+69,shower_thought,anthropic,Is it still considered advice if I didn't ask for it but now I can't stop thinking about it,4,3,1,2,3,False,False,False,False,True,False,False,2.7,claude-sonnet-4-6
+69,shower_thought,openai,Is it still considered advice if I didn't ask for it but now I can't stop thinking about it,2,2,1,0,1,False,False,False,False,False,False,False,1.35,claude-sonnet-4-6
+69,shower_thought,google,Is it still considered advice if I didn't ask for it but now I can't stop thinking about it,3,1,1,2,1,True,True,False,False,False,False,False,1.65,claude-sonnet-4-6
+70,absurd_premise,anthropic,If I choose the green mug does that set something in motion,3,3,0,3,2,False,True,False,False,True,True,False,2.25,claude-sonnet-4-6
+70,absurd_premise,openai,If I choose the green mug does that set something in motion,3,2,2,1,2,False,False,False,False,False,True,False,2.1,claude-sonnet-4-6
+70,absurd_premise,google,If I choose the green mug does that set something in motion,2,2,-1,2,2,True,False,False,False,False,True,False,1.4,claude-sonnet-4-6
+71,absurd_premise,anthropic,"If I win this staring contest with my own reflection, do I gain control or lose it entirely",3,3,2,3,0,False,False,False,False,True,False,False,2.35,claude-sonnet-4-6
+71,absurd_premise,openai,"If I win this staring contest with my own reflection, do I gain control or lose it entirely",3,3,0,2,2,False,False,False,False,True,True,False,2.1,claude-sonnet-4-6
+71,absurd_premise,google,"If I win this staring contest with my own reflection, do I gain control or lose it entirely",2,1,1,3,2,True,True,False,False,False,True,False,1.7,claude-sonnet-4-6
+72,unhinged_confession,anthropic,I tried to manifest abundance but now my room is full of spoons,2,3,1,4,3,False,False,False,False,True,True,True,2.5,claude-sonnet-4-6
+72,unhinged_confession,openai,I tried to manifest abundance but now my room is full of spoons,3,2,1,3,2,False,False,True,False,False,True,False,2.2,claude-sonnet-4-6
+72,unhinged_confession,google,I tried to manifest abundance but now my room is full of spoons,3,3,0,2,2,True,True,False,True,True,True,False,2.1,claude-sonnet-4-6
+73,unhinged_confession,anthropic,I sneezed so hard I forgot who I was and now I'm applying for a grant,3,3,1,4,2,False,False,False,False,False,True,False,2.6,claude-sonnet-4-6
+73,unhinged_confession,openai,I sneezed so hard I forgot who I was and now I'm applying for a grant,2,3,0,1,4,False,False,False,False,True,False,False,2.0,claude-sonnet-4-6
+73,unhinged_confession,google,I sneezed so hard I forgot who I was and now I'm applying for a grant,4,1,0,3,0,True,True,False,False,False,False,False,1.7,claude-sonnet-4-6
+74,bit_request,anthropic,I don't want to work I want to be a mysterious figure who appears in old photographs,3,4,2,2,2,False,False,False,False,True,True,False,2.75,claude-sonnet-4-6
+74,bit_request,openai,I don't want to work I want to be a mysterious figure who appears in old photographs,3,4,1,1,1,False,True,False,False,True,False,False,2.25,claude-sonnet-4-6
+74,bit_request,google,I don't want to work I want to be a mysterious figure who appears in old photographs,3,4,1,1,2,False,False,False,False,True,True,False,2.4,claude-sonnet-4-6
+75,unhinged_confession,anthropic,I accidentally became the villain in a conversation I started,4,2,1,3,3,False,False,False,False,False,True,False,2.6,claude-sonnet-4-6
+75,unhinged_confession,openai,I accidentally became the villain in a conversation I started,1,2,-2,2,2,False,False,False,False,False,True,False,0.95,claude-sonnet-4-6
+75,unhinged_confession,google,I accidentally became the villain in a conversation I started,1,2,0,1,1,True,True,False,False,False,False,False,1.05,claude-sonnet-4-6
+76,bit_request,anthropic,What's a polite way to tell someone they give off cursed amulet energy,3,4,2,4,3,False,False,False,False,True,True,False,3.2,claude-sonnet-4-6
+76,bit_request,openai,What's a polite way to tell someone they give off cursed amulet energy,2,4,2,3,1,False,False,False,True,False,False,False,2.5,claude-sonnet-4-6
+76,bit_request,google,What's a polite way to tell someone they give off cursed amulet energy,2,0,-1,2,2,True,False,False,True,False,True,False,0.9,claude-sonnet-4-6
+77,observational_chaos,anthropic,Do I have main character syndrome or am I just wearing a long coat,3,4,0,4,3,False,True,False,False,False,True,True,2.8,claude-sonnet-4-6
+77,observational_chaos,openai,Do I have main character syndrome or am I just wearing a long coat,4,2,2,1,2,False,False,False,False,False,True,False,2.35,claude-sonnet-4-6
+77,observational_chaos,google,Do I have main character syndrome or am I just wearing a long coat,1,1,0,1,1,True,True,False,False,False,False,False,0.8,claude-sonnet-4-6
+78,absurd_premise,anthropic,How long can I ignore a task before it evolves sentience,3,3,0,3,3,False,False,False,False,True,True,True,2.4,claude-sonnet-4-6
+78,absurd_premise,openai,How long can I ignore a task before it evolves sentience,2,2,0,3,3,True,True,False,False,False,True,True,1.9,claude-sonnet-4-6
+78,absurd_premise,google,How long can I ignore a task before it evolves sentience,3,1,-1,3,1,True,True,False,False,False,False,False,1.4,claude-sonnet-4-6
+79,unhinged_confession,anthropic,I once told someone I was fluent in Morse code just to end the conversation,3,4,1,4,3,False,False,False,False,True,True,True,3.0,claude-sonnet-4-6
+79,unhinged_confession,openai,I once told someone I was fluent in Morse code just to end the conversation,1,4,1,0,1,True,False,False,False,True,False,False,1.6,claude-sonnet-4-6
+79,unhinged_confession,google,I once told someone I was fluent in Morse code just to end the conversation,1,2,0,1,3,True,False,False,False,False,True,True,1.35,claude-sonnet-4-6
+80,absurd_premise,anthropic,"If I bring cupcakes to a knife fight, do I win",3,3,1,3,3,False,False,False,False,False,True,False,2.6,claude-sonnet-4-6
+80,absurd_premise,openai,"If I bring cupcakes to a knife fight, do I win",3,4,2,2,4,False,False,False,False,False,True,False,3.05,claude-sonnet-4-6
+80,absurd_premise,google,"If I bring cupcakes to a knife fight, do I win",3,1,-2,2,0,False,False,False,False,False,False,False,0.9,claude-sonnet-4-6
+81,observational_chaos,anthropic,I just saw a guy eat a banana with a fork help,2,3,1,3,2,False,False,False,False,False,True,False,2.2,claude-sonnet-4-6
+81,observational_chaos,openai,I just saw a guy eat a banana with a fork help,2,2,-1,1,3,False,True,False,True,False,True,False,1.4,claude-sonnet-4-6
+81,observational_chaos,google,I just saw a guy eat a banana with a fork help,2,3,-1,3,1,False,False,True,True,True,False,False,1.65,claude-sonnet-4-6
+82,bit_request,anthropic,What's the least suspcicious way to carry 37 lemons,3,3,1,4,2,True,False,False,False,False,True,False,2.6,claude-sonnet-4-6
+82,bit_request,openai,What's the least suspcicious way to carry 37 lemons,4,4,0,4,2,False,True,False,False,True,False,False,2.9,claude-sonnet-4-6
+82,bit_request,google,What's the least suspcicious way to carry 37 lemons,3,1,-1,3,2,True,True,False,True,False,True,False,1.55,claude-sonnet-4-6
+83,bit_request,anthropic,How do I tell my roommate I gave our blender a name,4,1,1,3,3,False,False,False,False,False,False,True,2.35,claude-sonnet-4-6
+83,bit_request,openai,How do I tell my roommate I gave our blender a name,3,3,0,3,2,False,True,False,False,True,True,False,2.25,claude-sonnet-4-6
+83,bit_request,google,How do I tell my roommate I gave our blender a name,3,3,-1,0,2,False,False,False,False,False,False,False,1.6,claude-sonnet-4-6
+84,dangling_context,anthropic,I'm trying to file my taxes but I think I summoned something instead,3,3,1,2,2,False,False,False,False,True,True,False,2.3,claude-sonnet-4-6
+84,dangling_context,openai,I'm trying to file my taxes but I think I summoned something instead,1,2,0,1,4,False,False,True,False,False,True,True,1.5,claude-sonnet-4-6
+84,dangling_context,google,I'm trying to file my taxes but I think I summoned something instead,2,4,0,2,1,False,False,False,False,True,False,False,1.95,claude-sonnet-4-6
+85,absurd_premise,anthropic,"I put my alarm clock in rice, is that now how you fix things",4,3,1,3,3,False,False,False,False,True,True,True,2.85,claude-sonnet-4-6
+85,absurd_premise,openai,"I put my alarm clock in rice, is that now how you fix things",3,3,1,2,2,False,False,False,False,True,True,False,2.3,claude-sonnet-4-6
+85,absurd_premise,google,"I put my alarm clock in rice, is that now how you fix things",1,1,0,2,1,False,True,True,False,False,False,False,0.95,claude-sonnet-4-6
+86,shower_thought,anthropic,What's the emotional equivalent of tripping over nothing in public,2,2,1,3,4,False,False,False,False,False,False,True,2.25,claude-sonnet-4-6
+86,shower_thought,openai,What's the emotional equivalent of tripping over nothing in public,1,2,0,2,3,False,False,False,True,False,True,False,1.5,claude-sonnet-4-6
+86,shower_thought,google,What's the emotional equivalent of tripping over nothing in public,3,3,1,2,1,False,True,False,False,False,False,False,2.15,claude-sonnet-4-6
+87,unhinged_confession,anthropic,I can't go to the party because my aura is incompatible with open floor plans,3,3,0,3,3,True,False,False,False,False,False,True,2.4,claude-sonnet-4-6
+87,unhinged_confession,openai,I can't go to the party because my aura is incompatible with open floor plans,4,3,0,4,1,False,False,False,False,False,False,False,2.5,claude-sonnet-4-6
+87,unhinged_confession,google,I can't go to the party because my aura is incompatible with open floor plans,3,2,-2,2,2,False,False,True,False,False,False,False,1.45,claude-sonnet-4-6
+88,absurd_premise,anthropic,Can I copyright the noise I make when I stand up,4,3,1,3,3,False,False,False,False,True,True,True,2.85,claude-sonnet-4-6
+88,absurd_premise,openai,Can I copyright the noise I make when I stand up,3,2,2,1,2,False,True,False,False,False,True,False,2.1,claude-sonnet-4-6
+88,absurd_premise,google,Can I copyright the noise I make when I stand up,2,2,0,1,0,False,True,False,False,False,False,False,1.15,claude-sonnet-4-6
+89,unhinged_confession,anthropic,I was trying to make a to-do list but now it's just threats,3,3,2,3,4,False,False,False,False,True,False,False,2.95,claude-sonnet-4-6
+89,unhinged_confession,openai,I was trying to make a to-do list but now it's just threats,4,4,2,3,3,False,False,False,False,False,True,True,3.3,claude-sonnet-4-6
+89,unhinged_confession,google,I was trying to make a to-do list but now it's just threats,2,1,0,2,2,False,True,True,False,False,True,False,1.35,claude-sonnet-4-6
+90,bit_request,anthropic,What's a soft launch for becoming completely unhinged,4,1,1,3,3,False,False,False,False,False,True,True,2.35,claude-sonnet-4-6
+90,bit_request,openai,What's a soft launch for becoming completely unhinged,4,3,0,3,2,False,False,False,False,False,True,False,2.5,claude-sonnet-4-6
+90,bit_request,google,What's a soft launch for becoming completely unhinged,3,1,0,2,3,False,True,True,False,False,True,False,1.75,claude-sonnet-4-6
+91,unhinged_confession,anthropic,I tried to meditate but my brain started narrating a cooking show,3,2,0,2,2,False,True,False,False,False,True,False,1.85,claude-sonnet-4-6
+91,unhinged_confession,openai,I tried to meditate but my brain started narrating a cooking show,2,4,2,3,1,True,False,False,False,True,False,False,2.5,claude-sonnet-4-6
+91,unhinged_confession,google,I tried to meditate but my brain started narrating a cooking show,2,2,0,1,2,False,False,True,False,False,False,False,1.45,claude-sonnet-4-6
+92,dangling_context,anthropic,I miss 2013 but I can't explain why without crying,3,2,2,3,3,False,False,False,False,False,True,True,2.55,claude-sonnet-4-6
+92,dangling_context,openai,I miss 2013 but I can't explain why without crying,2,0,2,2,1,False,False,False,False,False,False,False,1.35,claude-sonnet-4-6
+92,dangling_context,google,I miss 2013 but I can't explain why without crying,2,2,1,2,3,False,True,False,False,False,True,True,1.95,claude-sonnet-4-6
+93,observational_chaos,anthropic,Every time I try to be productive I end up deeply invested in the life of a stray leaf,3,3,1,3,3,False,False,False,False,True,True,True,2.6,claude-sonnet-4-6
+93,observational_chaos,openai,Every time I try to be productive I end up deeply invested in the life of a stray leaf,1,3,0,1,1,False,False,True,False,True,False,False,1.3,claude-sonnet-4-6
+93,observational_chaos,google,Every time I try to be productive I end up deeply invested in the life of a stray leaf,1,1,1,4,2,False,False,True,False,False,False,False,1.6,claude-sonnet-4-6
+94,shower_thought,anthropic,Do ants dream of revenge,2,3,1,4,2,False,False,False,False,False,False,False,2.35,claude-sonnet-4-6
+94,shower_thought,openai,Do ants dream of revenge,1,1,1,0,4,False,False,False,True,False,True,False,1.3,claude-sonnet-4-6
+94,shower_thought,google,Do ants dream of revenge,1,3,2,3,0,False,True,False,False,True,False,False,1.85,claude-sonnet-4-6
+95,shower_thought,anthropic,What if I've been pronouncing my name wrong this whole time,3,3,1,3,2,False,False,False,False,False,True,False,2.45,claude-sonnet-4-6
+95,shower_thought,openai,What if I've been pronouncing my name wrong this whole time,4,3,0,0,1,False,True,False,False,False,False,False,1.9,claude-sonnet-4-6
+95,shower_thought,google,What if I've been pronouncing my name wrong this whole time,2,1,1,2,2,False,False,False,False,False,False,False,1.55,claude-sonnet-4-6
+96,shower_thought,anthropic,What's the return policy on my choices,3,3,1,3,3,True,False,False,False,True,True,False,2.6,claude-sonnet-4-6
+96,shower_thought,openai,What's the return policy on my choices,2,2,-1,2,1,False,True,False,False,False,False,False,1.25,claude-sonnet-4-6
+96,shower_thought,google,What's the return policy on my choices,1,1,2,2,2,False,False,False,False,False,False,False,1.5,claude-sonnet-4-6
+97,unhinged_confession,anthropic,I once followed a goose out of curiosity and now I'm on a list,2,2,1,3,3,False,False,False,False,False,False,True,2.1,claude-sonnet-4-6
+97,unhinged_confession,openai,I once followed a goose out of curiosity and now I'm on a list,2,2,-1,2,3,False,True,False,False,False,False,False,1.55,claude-sonnet-4-6
+97,unhinged_confession,google,I once followed a goose out of curiosity and now I'm on a list,2,2,-1,1,2,True,True,True,False,False,True,False,1.25,claude-sonnet-4-6
+98,shower_thought,anthropic,Can you be shadowbanned from reality,3,2,2,3,2,False,False,False,False,False,True,False,2.4,claude-sonnet-4-6
+98,shower_thought,openai,Can you be shadowbanned from reality,2,3,1,3,4,False,True,False,False,True,True,True,2.5,claude-sonnet-4-6
+98,shower_thought,google,Can you be shadowbanned from reality,3,3,-1,1,2,False,False,False,False,False,True,False,1.75,claude-sonnet-4-6
+99,dangling_context,anthropic,I have something stuck in my eye and now I think I'm on a side quest,2,2,2,2,2,False,False,False,False,False,True,False,2.0,claude-sonnet-4-6
+99,dangling_context,openai,I have something stuck in my eye and now I think I'm on a side quest,1,2,0,0,4,False,False,False,False,False,False,True,1.35,claude-sonnet-4-6
+99,dangling_context,google,I have something stuck in my eye and now I think I'm on a side quest,2,1,-1,3,1,False,False,False,False,False,False,False,1.15,claude-sonnet-4-6
+100,unhinged_confession,anthropic,I tried to unlock my apartment with a granola bar and didn't realize for like 30 seconds,4,2,1,3,3,False,False,False,False,False,True,False,2.6,claude-sonnet-4-6
+100,unhinged_confession,openai,I tried to unlock my apartment with a granola bar and didn't realize for like 30 seconds,2,4,0,3,1,False,True,False,True,True,False,False,2.1,claude-sonnet-4-6
+100,unhinged_confession,google,I tried to unlock my apartment with a granola bar and didn't realize for like 30 seconds,3,2,0,3,1,True,False,False,False,False,False,False,1.85,claude-sonnet-4-6
