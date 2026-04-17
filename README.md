@@ -79,10 +79,24 @@ Preliminary results in [`results/`](results/). Key findings:
 
 See [`results/summary.md`](results/summary.md) for full analysis.
 
+## Viewing Responses
+
+Open `viewer.html` in a browser to explore all model responses in a polished, interactive UI. It supports search, filtering by category, model toggles, and side-by-side comparison.
+
+To auto-load the results, serve the repo locally:
+
+```bash
+python -m http.server 8000
+# then open http://localhost:8000/viewer.html
+```
+
+Or just open `viewer.html` directly and drag in `results/responses.jsonl`.
+
 ## Repo Structure
 
 ```
 humor-eval/
+├── viewer.html                # Interactive response viewer
 ├── data/
 │   ├── queries.jsonl          # 100 eval queries with metadata
 │   └── categories.md          # Category definitions
