@@ -19,6 +19,12 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+# Force UTF-8 on stdout so progress-bar block chars don't blow up on Windows cp1252
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except Exception:
+    pass
+
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -181,7 +187,7 @@ def score_responses(
     judge_caller = JUDGE_CALLERS[judge_key]
 
     responses = []
-    with open(input_path) as f:
+    with open(input_path, encoding="utf-8") as f:
         for line in f:
             record = json.loads(line.strip())
             if "error" in record:
@@ -202,14 +208,14 @@ def score_responses(
     print(f"{'='*60}\n")
 
     fieldnames = (
-        ["query_id", "category", "model", "query"]
+        ["query_id", "category", "model", "condition", "query"]
         + DIMENSIONS
         + BOOLEAN_FLAGS
         + ["comedic_fluency", "rationale", "judge_model"]
     )
 
     RESULTS_DIR.mkdir(exist_ok=True)
-    with open(output_path, "w", newline="") as csvfile:
+    with open(output_path, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
 
@@ -230,6 +236,7 @@ def score_responses(
                     "query_id": record["query_id"],
                     "category": record["category"],
                     "model": record["model"],
+                    "condition": record.get("condition", "steered"),
                     "query": record["query"][:100],
                     **{d: scores.get(d) for d in DIMENSIONS},
                     **{f: scores.get(f, False) for f in BOOLEAN_FLAGS},

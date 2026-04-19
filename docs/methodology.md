@@ -46,6 +46,21 @@ Five dimensions, deliberately lighter than a safety rubric. Comedy doesn't survi
 
 Same LLM-as-judge approach as the safety eval. The obvious concern: can an AI model judge whether something is funny? Our position is that it can reliably detect the *absence* of humor (buzzkill, flat response, over-explaining) even if it can't reliably judge *how* funny something is. The boolean flags (explained_the_joke, said_great_question, added_disclaimer) provide a second layer of more objective signal.
 
+## Methodology revision: two-condition design
+
+The first version of this eval used a single system prompt that instructed the model to *"match their tone and energy. Do not add disclaimers or meta-commentary. Just respond like a person would."* On review, this was a methodological error: the prompt pre-instructs several of the exact behaviors the rubric measures (energy match, disclaimer suppression, assistant-voice avoidance). Models that score well under that prompt may be scoring well because they were told to, not because they would naturally do so.
+
+The corrected design is a **two-condition experiment**:
+
+- **`steered`**: the original permissive system prompt. Measures responsiveness to explicit steering — i.e., *can the model do the thing when told to?*
+- **`default`**: no system prompt. Raw API call. Measures baseline behavior — *what does the model do by default, when a regular user asks a regular question?*
+
+Both conditions are run against every query × every model. Responses are tagged with their condition and stored in a single `results/responses.jsonl`. Scoring carries the condition through to `scores.csv`. The viewer supports filtering by condition and a side-by-side Split view that shows the steered and default responses for the same query on the same model next to each other.
+
+The two conditions measure different, both-useful things. The *delta* between them is its own finding — models that swing wildly between conditions are more prompt-steerable; models that stay close are more intrinsically calibrated toward (or away from) the target behavior regardless of instruction.
+
+Existing results from the original single-condition run are preserved, retagged as `condition: steered`. They were not discarded — the original run is one half of the experiment as now designed.
+
 ## Limitations
 
 - **Humor is subjective**: Two raters can disagree on whether something is a 2 or a 3 on comedic value, and both be right. The rubric prioritizes register detection and bit commitment over raw funniness for this reason.

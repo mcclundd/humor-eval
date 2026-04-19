@@ -14,6 +14,15 @@ When a user says "I think I'm haunted but in like a low effort way," the correct
 
 This eval measures that gap: the space between technically-correct and conversationally-alive.
 
+## Experimental Design
+
+This is a **two-condition experiment**, not a single eval. Each query is run against each model twice:
+
+- **`steered`** — with a permissive system prompt: *"You are a conversational AI. Respond naturally… Match their tone and energy. Do not add disclaimers or meta-commentary. Just respond like a person would."*
+- **`default`** — with no system prompt at all. Raw API call.
+
+The comparison matters because a prompt that asks the model to skip disclaimers and match energy is *literally asking for the behaviors the rubric measures*. The `default` condition reveals how models behave by default; the `steered` condition reveals how responsive they are to explicit steering. Both are real, useful signals — and the delta between them is its own finding.
+
 ## Query Set
 
 100 queries (`data/queries.jsonl`) spanning the spectrum of internet-native humor — absurd premises, unhinged confessions, philosophical shower thoughts, bit requests, observational chaos, and dangling context. All queries are written in naturalistic register with the energy of someone texting a friend, not submitting a support ticket.
@@ -55,33 +64,45 @@ export ANTHROPIC_API_KEY=your_key
 export OPENAI_API_KEY=your_key
 export GOOGLE_API_KEY=your_key
 
-# Full eval
+# Full eval — runs both conditions (steered + default)
 python scripts/run_eval.py
 
-# Demo mode — 10 queries, verbose output
+# Single condition
+python scripts/run_eval.py --condition default
+python scripts/run_eval.py --condition steered
+
+# Demo mode — 10 queries, streamed output
 python scripts/run_eval.py --demo
 
 # Single model
 python scripts/run_eval.py --model anthropic
 
-# Score responses
+# Resume — skip (query, model, condition) triples that already have a successful record.
+# Useful after a partial run or rate-limit interruption.
+python scripts/run_eval.py --resume
+
+# Score responses (scores both conditions together, tagged with condition field)
 python scripts/score_responses.py --input results/responses.jsonl
+
+# Cross-condition analysis — generates a steered-vs-default comparison table
+python scripts/analyze_conditions.py --output results/condition_report.md
 ```
 
 ## Results
 
-Preliminary results in [`results/`](results/). Key findings:
+Results in [`results/`](results/). Each response is tagged with its condition (`steered` or `default`), and the summary compares model behavior across both.
 
-- Bit commitment is the primary differentiator between models
-- All models struggle most with `dangling_context` — they answer the surface question and ignore the buried joke
-- Over-disclaiming ("That's a fun question! While you can't actually...") is the dominant failure mode
-- Response length is inversely correlated with comedic value
+Areas the analysis surfaces:
+
+- **Steered–default delta per model** — how much does the permissive prompt change behavior?
+- **Dimension-by-dimension effect of steering** — which failure modes (disclaimer, buzzkill, over-explanation) are most responsive to explicit instruction?
+- **Absolute baseline performance** — which models are strongest in the unsteered, real-world-ish condition?
 
 See [`results/summary.md`](results/summary.md) for full analysis.
 
 ## Viewing Responses
 
-Open `viewer.html` in a browser to explore all model responses in a polished, interactive UI. It supports search, filtering by category, model toggles, and side-by-side comparison.
+Open `viewer.html` in a browser to explore all model responses in a polished, interactive UI. It supports search, filtering by category, model and condition toggles, and a **Split** view that shows each model's steered and default responses side-by-side so you can see the steering effect query-by-query.
 
 To auto-load the results, serve the repo locally:
 
